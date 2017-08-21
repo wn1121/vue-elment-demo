@@ -1,0 +1,61 @@
+/*覆盖element Ui */
+
+/*select*/
+.el-select{
+  display: block!important;
+}
+
+/*form*/
+.el-form-item{
+  margin-bottom: 28px;
+}
+.el-form--inline{
+  .el-input{
+    width: 180px;
+  }
+}
+
+/*table*/
+.el-table th,
+.el-table__footer-wrapper thead div,
+.el-table__header-wrapper thead div,
+.el-table__fixed-header-wrapper thead div{
+  background-color: $tableBg!important;
+}
+
+/*pagination*/
+.el-pagination{
+  text-align: center;
+  padding-top: 30px!important;
+}
+
+/*tree*/
+.el-tree{
+  height: 400px;
+  overflow-y: auto;
+}
+
+.avatar-uploader .avatar-uploader-icon{
+  width: 150px!important;
+  height: 150px!important;
+  line-height: 150px!important;
+}
+
+.el-breadcrumb{
+  line-height: 1.5!important;
+}
+
+@media screen and (max-width: 750px){
+  .el-dialog--small{
+    width: 90% !important;
+    left: 45% !important;
+    -webkit-transform: translateX(-45%) !important;
+    transform: translateX(-45%) !important;
+  }
+}
+
+.box-card{
+  img{
+    max-width: 100%;
+  }
+}
