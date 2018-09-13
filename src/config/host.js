@@ -1,8 +1,0 @@
-/**
- * host
- */
-
-export default {
-  test: ''
-}
-

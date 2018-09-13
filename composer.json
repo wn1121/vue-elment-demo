@@ -15,6 +15,7 @@
         "johnlui/aliyun-oss": "~2.0",
         "fzaninotto/faker": "~1.4",
         "swiftmailer/swiftmailer": "^6.0",
-        "phpoffice/phpexcel": "^1.8"
+        "phpoffice/phpexcel": "^1.8",
+        "hprose/hprose-swoole": "^2.0"
     }
 }
