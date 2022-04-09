@@ -14,7 +14,7 @@
     "echarts": "^3.8.5",
     "element-ui": "^2.3.4",
     "html-webpack-plugin": "^2.30.1",
-    "moment": "^2.18.1",
+    "moment": "^2.29.2",
     "rimraf": "^2.6.1",
     "sortablejs": "^1.7.0",
     "v-distpicker": "^1.0.12",
